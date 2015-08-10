@@ -798,6 +798,7 @@ static CGPathRef CGPathCreateArc(CGPoint center, CGFloat radius, CGFloat startAn
             [layer setShadowOffset:CGSizeZero];
             [layer setShadowOpacity:1.0f];
             [layer setShadowRadius:10.0f];
+            [layer setCornerRadius:200];
         } else {
             [layer setShadowColor:[UIColor clearColor].CGColor];
             [layer setShadowOffset:CGSizeZero];

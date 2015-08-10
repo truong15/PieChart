@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSMutableArray *datas = [NSMutableArray arrayWithObjects:@56, @20, @40, nil];
     [self.dlPieChart setSelectedSliceOffsetRadius:0];
+    [self.dlPieChart setPieRadius:20];
     [self.dlPieChart renderInLayer:self.dlPieChart dataArray:datas];
 }
 
